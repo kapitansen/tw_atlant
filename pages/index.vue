@@ -37,17 +37,11 @@ export default {
 </script>
 
 <style>
-
 .atl-logo {
   -webkit-animation: rotate-center 0.6s ease-in-out both;
   animation: rotate-center 0.6s ease-in-out both;
 }
 
-/**
- * ----------------------------------------
- * animation rotate-center
- * ----------------------------------------
- */
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
@@ -68,5 +62,4 @@ export default {
             transform: rotate(360deg);
   }
 }
-
 </style>

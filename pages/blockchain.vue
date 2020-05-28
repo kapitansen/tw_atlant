@@ -41,7 +41,7 @@
               </v-item-group>
             </div>
             <div v-if="!connected">
-              <v-alert type="error">
+              <v-alert type="warning">
                 {{ disconnectedText }}
               </v-alert>
             </div>
