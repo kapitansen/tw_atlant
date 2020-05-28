@@ -16,10 +16,10 @@
       </div>
     </div>
     <div class="mt-4">
-      <v-btn href="https://github.com/kapitansen/tw_atlant/Readme.md" outlined class="mr-2">
-        Documentation
+      <v-btn href="https://github.com/kapitansen/tw_atlant/blob/master/README.md" target="_blank" outlined class="mr-2">
+        Readme
       </v-btn>
-      <v-btn href="https://github.com/kapitansen/tw_atlant" outlined>
+      <v-btn href="https://github.com/kapitansen/tw_atlant" target="_blank" outlined>
         GitHub
       </v-btn>
     </div>
