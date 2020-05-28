@@ -1,0 +1,33 @@
+$atl-color: #ffae4a;
+$atl-headline: #4a4949;
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.atl-name {
+  color: $atl-color;
+}
+
+.atl-headline {
+  color: $atl-headline;
+}
+
+.v-footer {
+  padding: 6px 9px !important;
+}
+
+.searchTask {
+  position: relative;
+  top: 13px;
+}
+
+.mt-p20  {
+  margin-top: 20%;
+}
