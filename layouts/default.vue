@@ -74,7 +74,7 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapActions } from 'vuex'
 
 export default {
   computed: {
@@ -90,7 +90,7 @@ export default {
       this.localSettings.drawer = !(this.localSettings.drawer)
       this.changeSettings(this.localSettings)
     },
-    ...mapMutations(['changeSettings'])
+    ...mapActions(['changeSettings'])
   }
 }
 </script>

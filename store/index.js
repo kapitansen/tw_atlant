@@ -78,7 +78,12 @@ const store = () => new Vuex.Store({
     }
   },
   actions: {
-
+    changeSettings ({ commit }, newSettings) {
+      commit('changeSettings', newSettings)
+    },
+    saveDashboard ({ commit }, newDashboard) {
+      commit('saveDashboard', newDashboard)
+    }
   },
   strict: debug
 })

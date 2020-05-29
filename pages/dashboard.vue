@@ -103,7 +103,7 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapActions } from 'vuex'
 
 export default {
   components: {
@@ -188,7 +188,7 @@ export default {
       }
       this.saveDashboard(this.dashboard)
     },
-    ...mapMutations(['saveDashboard'])
+    ...mapActions(['saveDashboard'])
   },
   head () {
     return {

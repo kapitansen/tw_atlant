@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapActions } from 'vuex'
 
 export default {
   data: () => ({
@@ -81,7 +81,7 @@ export default {
     }
   },
   methods: {
-    ...mapMutations(['changeSettings'])
+    ...mapActions(['changeSettings'])
   },
   head () {
     return {
