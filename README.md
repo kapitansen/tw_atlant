@@ -1,24 +1,14 @@
-# tw_atlant
+## Vue.js + NUXT test project. Warranty void if deployed :)
 
-> Vue.js test project
+Since a hypothetical project can develop further, it is necessary to immediately provide for the possibility of scaling. So I used the Nuxt framework.js - it allowed you to quickly outline the structure of the application, configure the development environment, integrate the necessary functions out of the box.
 
-## Readme for my potential employer
+Vuetify.js - for rapid prototyping of the interface. The library is based on the Bootstrap grid, therefore, the work will be familiar to the designer. Since the application is in the initial stage of development, I used the entire UI library. In the future, it will be possible to import only those modules that are used in the application, reducing its size. vuex-persistedstate - to save the application settings in localStorage. vue-draggable-resizable - to implement a desktop with dragging blocks.
 
-> Yes, this is "cyrillitsa" here =)
+Data is stored in Vuex, changes are called via actions, even though they are synchronous. In the future, this will avoid confusion and easily expand the application. In state there are general application settings, as well as the dashboard block with the cards object - settings for the position and visibility of desktop blocks. This is not a completely flat data structure, but other objects with settings can be added to the dashboard in the future, and I think it will be clearer this way. On the News and Projects test pages, data is stored directly in the page component. Since these pages were added only to demonstrate no-prefetch, there was no point in fooling around with Vuex for a long time.
 
-Поскольку гипотетический проект может развиваться дальше, необходимо сразу предусмотреть возможность масштабирования. Поэтому я использовал фреймворк Nuxt.js - он позволил быстро набросать структуру приложения, настроить среду разработки, интегрировать "из коробки" нужные функции.
+On the Blockchain page, the parsing of JSON data from Websocket could be beautifully reduced, but I did not sacrifice the readability of the code.
 
-Vuetify.js - для быстрого прототипирования интерфейса. Библиотека основана на сетке Bootstrap, следовательно, для дизайнера работа будет знакомой. Поскольку приложение в начальной стадии разработки, я использовал UI-библиотеку целиком. В дальнейшем можно будет импортировать только те модули, что используются в приложении, уменьшив его размер.
-vuex-persistedstate - для сохранения настроек приложения в LocalStorage. 
-vue-draggable-resizable - для реализации рабочего стола с перетаскиванием блоков.  
-
-Данные хранятся в Vuex, изменения вызываются через actions, даже несмотря на то, что они синхронные. В дальнейшем это позволит избежать путаницы и легко расширить приложение.
-В state есть общие настройки приложения, а также блок dashboard c объектом cards - настройки положения и видимости блоков рабочего стола. Это не совсем плоская структура данных, но в dashboard в дальнейшем могут быть добавлены другие объекты с настройками, и я думаю, что так будет нагляднее.
-На тестовых траницах News и Projects данные хранятся прямо в компоненте страницы. Так как эти страницы добавлены только для демонстрации no-prefetch, не было смысла долго мудрить с Vuex.
-
-На странице Blockchain парсинг JSON данных из Websocket можно было бы красиво сократить, но я не стал жертвовать удобочитаемостью кода. 
-
-Все остальные косметические и юзабилити изменения сделаны мной по доброй воле, собственной инициативе и благодаря стремлению создавать красивые вещи.
+All other cosmetic and usability changes were made by me voluntarily, on my own initiative and due to the desire to create beautiful things.
 
 ## Build Setup
 
