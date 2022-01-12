@@ -1,5 +1,7 @@
 ## Vue.js + NUXT test project. Warranty void if deployed :)
 
+Example - https://tw-atlant.vercel.app
+
 Since a hypothetical project can develop further, it is necessary to immediately provide for the possibility of scaling. So I used the Nuxt framework.js - it allowed you to quickly outline the structure of the application, configure the development environment, integrate the necessary functions out of the box.
 
 Vuetify.js - for rapid prototyping of the interface. The library is based on the Bootstrap grid, therefore, the work will be familiar to the designer. Since the application is in the initial stage of development, I used the entire UI library. In the future, it will be possible to import only those modules that are used in the application, reducing its size. vuex-persistedstate - to save the application settings in localStorage. vue-draggable-resizable - to implement a desktop with dragging blocks.
